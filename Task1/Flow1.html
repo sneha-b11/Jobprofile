@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flow1</title>
+</head>
+<body>
+    <link rel="stylesheet" href="Flow1.css">
+    <div class="search_div">
+        <form class="search_bar" action="search">
+            <img class="search_icon" src="Icon map-search.svg"/>
+            <input class="search_input" type="text" placeholder="Search..">
+        </form>
+        <button class="search_button">Search</button>
+        <div class="search_bell">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="#6048f6" stroke="#6048f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 17H2a3 3 0 0 0 3-3V9a7 7 0 0 1 14 0v5a3 3 0 0 0 3 3zm-8.27 4a2 2 0 0 1-3.46 0"></path></svg>
+        </div>
+    </div>
+    
+    <div style="display: flex;">
+        <div style="width: 200px;" class="sidebar_div" >
+            <div style="display: flex;">
+                <img src="Mask Group 1.png" width="28" height="28" style="margin-top: 10px; margin-left: 12px; margin-right: 18px;">
+                <p class="sidebar_profile_text">Ojas Singh</p>
+            </div>
+            <div class="sidebar_menu_div">
+                <div style="display: inline-flex;">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 0 24 24" width="18px" fill="#C0CDD6"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 5v2h-4V5h4M9 5v6H5V5h4m10 8v6h-4v-6h4M9 17v2H5v-2h4M21 3h-8v6h8V3zM11 3H3v10h8V3zm10 8h-8v10h8V11zm-10 4H3v6h8v-6z"/></svg>
+                    <p class="sidebar_menu_items">Dashboard</p>
+                </div>
+                <div style="display: inline-flex;">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#C0CDD6" stroke="#C0CDD6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                    <p class="sidebar_menu_items">Candidates</p>
+                </div>
+                <div style="display: inline-flex;">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 0 24 24" width="18px" fill="#C0CDD6"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"/></svg>
+                    <p class="sidebar_menu_items">Job</p>
+                </div>
+                <div style="display: inline-flex;">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#C0CDD6" stroke="#C0CDD6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                    <p class="sidebar_menu_items">Mailbox</p>
+                </div>
+                <div style="display: inline-flex;">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C0CDD6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>
+                    <p class="sidebar_menu_items">Reports</p>
+                </div>
+                <div style="display: inline-flex;">
+                    <svg class="icon" style="margin-top: 383px;" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#C0CDD6" stroke="#C0CDD6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                    <p class="sidebar_menu_bottom" style="margin-top: 380px;">Accounts</p>
+                </div>
+                <div style="display: inline-flex;">
+                    <svg class="icon" style="margin-top: 29px;" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="18px" viewBox="0 0 24 24" width="18px" fill="#C0CDD6"><g><path d="M0,0h24v24H0V0z" fill="none"/></g><g><path d="M17,8l-1.41,1.41L17.17,11H9v2h8.17l-1.58,1.58L17,16l4-4L17,8z M5,5h7V3H5C3.9,3,3,3.9,3,5v14c0,1.1,0.9,2,2,2h7v-2H5V5z"/></g></svg>
+                    <p class="sidebar_menu_bottom">Logout</p>
+                </div>
+            </div>
+            
+    
+        </div>
+        
+        <div style="width: 90%" class="main_div" >
+            <div class="intro">
+                <p class="intro_post">Senior Marketer (Sample)</p>
+                <p class="intro_job_type">Remote job</p>
+                <button class="qualified_button">Qualified 7</button>
+                <button style="margin-left: -5px;" class="disqualified_button">Disqualified 1</button>
+                <svg style="vertical-align:middle; display:inline-block; margin-left:573px" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#B9D1DD" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="16"></line><line x1="8" y1="12" x2="16" y2="12"></line></svg>
+                <img style="vertical-align:middle; display:inline-block; margin-left:7px" src="Mask Group 1.png" width="28" height="28" style="margin-top: 10px; margin-left: 12px; margin-right: 18px;">
+                <button class="following">Following</button>
+            </div>
+    
+            <div class="header" style="display: flex;right:0;">
+                <p style="margin:5px 14px 5px 14px;">PIPELINE</p>
+                <p style="margin:5px 14px 5px 14px;">FILTER</p>
+                <p style="margin:5px 14px 5px 14px;">ACTIVITY</p>
+                <p style="margin:5px 14px 5px 14px;">NOTES</p>
+                <p style="margin:5px 14px 5px 14px;">FILE</p>
+                <p style="margin:5px 14px 5px 14px;">PROMOTE</p>
+                <p style="margin:5px 14px 5px 14px;">REPORTS</p>
+                <div style="display: flex; margin-top:5px;position:absolute;right:65px;">
+                    <div style="display: inline-flex;margin-right:9px;">
+                        <svg style="margin:2px;" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#4D6072" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                        <p style="margin:auto;">VIEW</p>
+                    </div>
+                    <div style="display: inline-flex;margin-right:9px;">
+                        <svg style="margin:2px;" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#4D6072" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+                        <p style="margin:auto;">SHARE</p>
+                    </div>
+                    <div style="display: inline-flex;margin-right:9px;">
+                        <svg style="margin:2px;" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#4D6072" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.66V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h5.34"></path><polygon points="18 2 22 6 12 16 8 16 8 12 18 2"></polygon></svg>
+                        <p style="margin:auto;">EDIT</p>
+                    </div>
+                </div>
+            </div>
+            <div style="border: 1px solid #6048F6; margin-top:15px; margin-left:13px; width:65px"></div>
+            <div style="border: 0.5px solid #B9D1DD;"></div>
+        </div>
+
+        
+    </div>
+
+    <div style="margin-left:200px; display:flex">
+        <div style="background-color:#F2FBFF; width:230px; height:645px; margin:10px;  margin-right:25px;" >
+            <div style="display: flex;">
+                <svg style="margin-top: 14px; margin-left: 70px; margin-right: 5px;" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="#B2FFAC" stroke="#B2FFAC" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle></svg>
+                <p class="block_heading">Applied (0)</p>
+            </div>
+            <div style="background-color: #FFFFFF; width:218px; height:130px; margin:5px; box-shadow: 0px 0px 3px #00000029; ">
+                <div >
+                    <svg style="margin-top: -3px;" xmlns="http://www.w3.org/2000/svg" width="16" height="18" viewBox="0 0 24 24" fill="#6048F6" stroke="#6048F6" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+                </div>
+                
+                <img class="block_content_profile_img" src="Mask Group 1.png" width="28" height="28" >
+                <p class="block_content_head">Pipeline Filter</p>
+                
+                <div style="display: flex; margin-bottom: -8px;">
+                    <p class="block_profile1">Candidate Profile</p>
+                    <p class="block_profile2">100%</p>
+                </div>
+                
+                <progress value = "100" max = "100" style="margin-left: 14px; width:185px; height:8px; "></progress>
+                
+                <div style="border:0.1px solid #B9D1DD; margin:14px; width:85%"></div>   
+
+                <div style="display:flex; margin-left: 13px;">
+                    <svg class="block_content_images" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#7F8F9D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                    <p class="block_content_values">21d</p>
+                    <svg class="block_content_images" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#C0CDD6" stroke="#C0CDD6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                    <p class="block_content_values">4</p>
+                    <svg class="block_content_images" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#7F8F9D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 9.5H3M21 4.5H3M21 14.5H3M17 19.5H3"/></svg>
+                    <p class="block_content_values">4</p>
+                </div>
+            </div>
+
+           <div style="background-color:#6048F6; width:218px; height:30px; margin:5px; margin-top:-5px">
+                <svg class="block_content_icons" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                <svg class="block_content_icons" xmlns="http://www.w3.org/2000/svg" width="16" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+                <svg class="block_content_icons" xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 24 24" width="24px" fill="#FFFFFF"><path d="M0 0h24v24H0V0zm0 0h24v24H0V0z" fill="none"/><path d="M12 6c0-.55-.45-1-1-1H5.82l.66-3.18.02-.23c0-.31-.13-.59-.33-.8L5.38 0 .44 4.94C.17 5.21 0 5.59 0 6v6.5c0 .83.67 1.5 1.5 1.5h6.75c.62 0 1.15-.38 1.38-.91l2.26-5.29c.07-.17.11-.36.11-.55V6zm-2 1.13L7.92 12H2V6.21l1.93-1.93L3.36 7H10v.13zM22.5 10h-6.75c-.62 0-1.15.38-1.38.91l-2.26 5.29c-.07.17-.11.36-.11.55V18c0 .55.45 1 1 1h5.18l-.66 3.18-.02.24c0 .31.13.59.33.8l.79.78 4.94-4.94c.27-.27.44-.65.44-1.06v-6.5c0-.83-.67-1.5-1.5-1.5zm-.5 7.79l-1.93 1.93.57-2.72H14v-.13L16.08 12H22v5.79z"/></svg>
+                <svg class="block_content_icons" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 9.5H3M21 4.5H3M21 14.5H3M17 19.5H3"/></svg>
+                <svg class="block_content_icons" style="margin-left: 65px;" xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 24 24" width="16" fill="#FFFFFF"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zM4 12c0-4.42 3.58-8 8-8 1.85 0 3.55.63 4.9 1.69L5.69 16.9C4.63 15.55 4 13.85 4 12zm8 8c-1.85 0-3.55-.63-4.9-1.69L18.31 7.1C19.37 8.45 20 10.15 20 12c0 4.42-3.58 8-8 8z"/></svg>
+            </div>
+
+        </div>
+        <div style="background-color: #F2FBFF; width:230px; height:645px; margin:10px;  margin-right:25px " >
+
+            <div style="display: flex;">
+                <svg style="margin-top: 14px; margin-left: 45px; margin-right: 5px;" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="#B2FFAC" stroke="#B2FFAC" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle></svg>
+                <p class="block_heading">Phone interview (0)</p>
+            </div>
+            <div style="background-color: #FFFFFF; width:218px; height:130px; margin:5px; margin-bottom:20px; box-shadow: 0px 0px 3px #00000029;">
+                <div >
+                    <svg style="margin-top: -3px;" xmlns="http://www.w3.org/2000/svg" width="16" height="18" viewBox="0 0 24 24" fill="#6048F6" stroke="#6048F6" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+                </div>
+                
+                <img class="block_content_profile_img" src="Mask Group 1.png" width="28" height="28" >
+                <p class="block_content_head">Pipeline Filter</p>
+                
+                <div style="display: flex; margin-bottom: -8px;">
+                    <p class="block_profile1">Candidate Profile</p>
+                    <p class="block_profile2">40%</p>
+                </div>
+                
+                <progress value = "40" max = "100" style="margin-left: 14px; width:185px; height:8px; "></progress>
+                
+                <div style="border:0.1px solid #B9D1DD; margin:14px; width:85%"></div>   
+
+                <div style="display:flex; margin-left: 13px;">
+                    <svg class="block_content_images" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#7F8F9D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                    <p class="block_content_values">21d</p>
+                    <svg class="block_content_images" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#C0CDD6" stroke="#C0CDD6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                    <p class="block_content_values">4</p>
+                    <svg class="block_content_images" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#7F8F9D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 9.5H3M21 4.5H3M21 14.5H3M17 19.5H3"/></svg>
+                    <p class="block_content_values">4</p>
+                </div>
+            </div>
+        </div>
+        <div style="background-color: #F2FBFF; width:230px; height:645px; margin:10px;  margin-right:25px " >
+            <div style="display: flex;">
+                <svg style="margin-top: 14px; margin-left: 40px; margin-right: 5px;" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="#38FC28" stroke="#38FC28" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle></svg>
+                <p class="block_heading">On-site interview (1)</p>
+            </div>
+            <div style="background-color: #FFFFFF; width:218px; height:130px; margin:5px; margin-bottom:20px; box-shadow: 0px 0px 3px #00000029;">
+                <div >
+                    <svg style="margin-top: -3px;" xmlns="http://www.w3.org/2000/svg" width="16" height="18" viewBox="0 0 24 24" fill="#DADEE2" stroke="#DADEE2" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+                </div>
+                
+                <img class="block_content_profile_img" src="Mask Group 1.png" width="28" height="28" >
+                <p class="block_content_head">Pipeline Filter</p>
+                
+                <div style="display: flex; margin-bottom: -8px;">
+                    <p class="block_profile1">Candidate Profile</p>
+                    <p class="block_profile2">40%</p>
+                </div>
+                
+                <progress value = "40" max = "100" style="margin-left: 14px; width:185px; height:8px; "></progress>
+                
+                <div style="border:0.1px solid #B9D1DD; margin:14px; width:85%"></div>   
+
+                <div style="display:flex; margin-left: 13px;">
+                    <svg class="block_content_images" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#7F8F9D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                    <p class="block_content_values">21d</p>
+                    <svg class="block_content_images" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#C0CDD6" stroke="#C0CDD6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                    <p class="block_content_values">4</p>
+                    <svg class="block_content_images" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#7F8F9D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 9.5H3M21 4.5H3M21 14.5H3M17 19.5H3"/></svg>
+                    <p class="block_content_values">4</p>
+                </div>
+            </div>            
+
+            <div style="background-color: #FFFFFF; width:218px; height:130px; margin:5px; margin-bottom:20px; box-shadow: 0px 0px 3px #00000029;">
+                <div >
+                    <svg style="margin-top: -3px;" xmlns="http://www.w3.org/2000/svg" width="16" height="18" viewBox="0 0 24 24" fill="#DADEE2" stroke="#DADEE2" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+                </div>
+                
+                <img class="block_content_profile_img" src="Mask Group 1.png" width="28" height="28" >
+                <p class="block_content_head">Pipeline Filter</p>
+                
+                <div style="display: flex; margin-bottom: -8px;">
+                    <p class="block_profile1">Candidate Profile</p>
+                    <p class="block_profile2">40%</p>
+                </div>
+                
+                <progress value = "40" max = "100" style="margin-left: 14px; width:185px; height:8px; "></progress>
+                
+                <div style="border:0.1px solid #B9D1DD; margin:14px; width:85%"></div>   
+
+                <div style="display:flex; margin-left: 13px;">
+                    <svg class="block_content_images" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#7F8F9D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                    <p class="block_content_values">21d</p>
+                    <svg class="block_content_images" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#C0CDD6" stroke="#C0CDD6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                    <p class="block_content_values">4</p>
+                    <svg class="block_content_images" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#7F8F9D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 9.5H3M21 4.5H3M21 14.5H3M17 19.5H3"/></svg>
+                    <p class="block_content_values">4</p>
+                </div>
+            </div>    
+        </div>
+        <div style="background-color: #F2FBFF; width:230px; height:645px; margin:10px;  margin-right:25px " >
+            <div style="display: flex;">
+                <svg style="margin-top: 14px; margin-left: 55px; margin-right: 5px;" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="#B2FFAC" stroke="#B2FFAC" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle></svg>
+                <p class="block_heading">Evaluation (3)</p>
+            </div>
+            <div style="background-color: #FFFFFF; width:218px; height:130px; margin:5px; margin-bottom:20px; box-shadow: 0px 0px 3px #00000029;">
+                <div >
+                    <svg style="margin-top: -3px;" xmlns="http://www.w3.org/2000/svg" width="16" height="18" viewBox="0 0 24 24" fill="#DADEE2" stroke="#DADEE2" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+                </div>
+                
+                <img class="block_content_profile_img" src="Mask Group 1.png" width="28" height="28" >
+                <p class="block_content_head">Pipeline Filter</p>
+                
+                <div style="display: flex; margin-bottom: -8px;">
+                    <p class="block_profile1">Candidate Profile</p>
+                    <p class="block_profile2">40%</p>
+                </div>
+                
+                <progress value = "40" max = "100" style="margin-left: 14px; width:185px; height:8px; "></progress>
+                
+                <div style="border:0.1px solid #B9D1DD; margin:14px; width:85%"></div>   
+
+                <div style="display:flex; margin-left: 13px;">
+                    <svg class="block_content_images" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#7F8F9D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                    <p class="block_content_values">21d</p>
+                    <svg class="block_content_images" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#C0CDD6" stroke="#C0CDD6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                    <p class="block_content_values">4</p>
+                    <svg class="block_content_images" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#7F8F9D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 9.5H3M21 4.5H3M21 14.5H3M17 19.5H3"/></svg>
+                    <p class="block_content_values">4</p>
+                </div>
+            </div>            
+            <div style="background-color: #FFFFFF; width:218px; height:130px; margin:5px; margin-bottom:20px; box-shadow: 0px 0px 3px #00000029;">
+                <div >
+                    <svg style="margin-top: -3px;" xmlns="http://www.w3.org/2000/svg" width="16" height="18" viewBox="0 0 24 24" fill="#DADEE2" stroke="#DADEE2" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+                </div>
+                
+                <img class="block_content_profile_img" src="Mask Group 1.png" width="28" height="28" >
+                <p class="block_content_head">Pipeline Filter</p>
+                
+                <div style="display: flex; margin-bottom: -8px;">
+                    <p class="block_profile1">Candidate Profile</p>
+                    <p class="block_profile2">40%</p>
+                </div>
+                
+                <progress value = "40" max = "100" style="margin-left: 14px; width:185px; height:8px; "></progress>
+                
+                <div style="border:0.1px solid #B9D1DD; margin:14px; width:85%"></div>   
+    
+                <div style="display:flex; margin-left: 13px;">
+                    <svg class="block_content_images" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#7F8F9D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                    <p class="block_content_values">21d</p>
+                    <svg class="block_content_images" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#C0CDD6" stroke="#C0CDD6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                    <p class="block_content_values">4</p>
+                    <svg class="block_content_images" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#7F8F9D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 9.5H3M21 4.5H3M21 14.5H3M17 19.5H3"/></svg>
+                    <p class="block_content_values">4</p>
+                </div>
+            </div>            
+    
+            <div style="background-color: #FFFFFF; width:218px; height:130px; margin:5px; margin-bottom:20px; box-shadow: 0px 0px 3px #00000029;">
+                <div >
+                    <svg style="margin-top: -3px;" xmlns="http://www.w3.org/2000/svg" width="16" height="18" viewBox="0 0 24 24" fill="#DADEE2" stroke="#DADEE2" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+                </div>
+                
+                <img class="block_content_profile_img" src="Mask Group 1.png" width="28" height="28" >
+                <p class="block_content_head">Pipeline Filter</p>
+                
+                <div style="display: flex; margin-bottom: -8px;">
+                    <p class="block_profile1">Candidate Profile</p>
+                    <p class="block_profile2">40%</p>
+                </div>
+                
+                <progress value = "40" max = "100" style="margin-left: 14px; width:185px; height:8px; "></progress>
+                
+                <div style="border:0.1px solid #B9D1DD; margin:14px; width:85%"></div>   
+    
+                <div style="display:flex; margin-left: 13px;">
+                    <svg class="block_content_images" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#7F8F9D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                    <p class="block_content_values">21d</p>
+                    <svg class="block_content_images" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#C0CDD6" stroke="#C0CDD6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                    <p class="block_content_values">4</p>
+                    <svg class="block_content_images" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#7F8F9D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 9.5H3M21 4.5H3M21 14.5H3M17 19.5H3"/></svg>
+                    <p class="block_content_values">4</p>
+                </div>
+            </div>    
+        </div>
+
+        <div style="background-color: #F2FBFF; width:230px; height:645px; margin:10px;  margin-right:25px " >
+            <div style="display: flex;">
+                <svg style="margin-top: 14px; margin-left: 70px; margin-right: 5px;" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="#B2FFAC" stroke="#B2FFAC" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle></svg>
+                <p class="block_heading">Offer (1)</p>
+            </div>
+            <div style="background-color: #FFFFFF; width:218px; height:130px; margin:5px; margin-bottom:20px; box-shadow: 0px 0px 3px #00000029;">
+                <div >
+                    <svg style="margin-top: -3px;" xmlns="http://www.w3.org/2000/svg" width="16" height="18" viewBox="0 0 24 24" fill="#DADEE2" stroke="#DADEE2" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+                </div>
+                
+                <img class="block_content_profile_img" src="Mask Group 1.png" width="28" height="28" >
+                <p class="block_content_head">Pipeline Filter</p>
+                
+                <div style="display: flex; margin-bottom: -8px;">
+                    <p class="block_profile1">Candidate Profile</p>
+                    <p class="block_profile2">40%</p>
+                </div>
+                
+                <progress value = "40" max = "100" style="margin-left: 14px; width:185px; height:8px; "></progress>
+                
+                <div style="border:0.1px solid #B9D1DD; margin:14px; width:85%"></div>   
+
+                <div style="display:flex; margin-left: 13px;">
+                    <svg class="block_content_images" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#7F8F9D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                    <p class="block_content_values">21d</p>
+                    <svg class="block_content_images" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#C0CDD6" stroke="#C0CDD6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                    <p class="block_content_values">4</p>
+                    <svg class="block_content_images" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#7F8F9D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 9.5H3M21 4.5H3M21 14.5H3M17 19.5H3"/></svg>
+                    <p class="block_content_values">4</p>
+                </div>
+            </div>            
+        </div>
+    </div>
+
+</body>
+</html>
