@@ -1,7 +1,7 @@
 # Jobprofile
 
-## About the page
-
+## About the webpage
+Converted figma design of an employment website into responsive HTML and CSS. It offers multiple products like Resume Database Access, Job Listings, and Response Management Tools.
 
 ## Demo 
 ![Finished Project] 
